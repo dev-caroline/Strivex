@@ -1,6 +1,8 @@
 import React from 'react'
 import SideNav from '../components/SideNav'
 import Navbar from '../components/Navbar'
+import { Outlet } from 'react-router-dom'
+
 
 const StudentLayout = () => {
   return (
@@ -8,7 +10,7 @@ const StudentLayout = () => {
       <SideNav/>
       <div>
       <Navbar/>
-
+      {/* <Outlet/> */}
       </div>
     </div>
   )

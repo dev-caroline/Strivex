@@ -1,11 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import SigninPage from './pages/SigninPage'
-import RequestAccessPage from './pages/RequestAccessPage'
 import AdminLayout from './layouts/AdminLayout'
 import StudentLayout from './layouts/StudentLayout'
 import SupervisorLayout from './layouts/SupervisorLayout'
 import SchoolAdmin from './layouts/SchoolAdmin'
+import SigninPage from './pages/auth/SigninPage'
+import RequestAccessPage from './pages/auth/RequestAccessPage'
 
 const App = () => {
   return (
