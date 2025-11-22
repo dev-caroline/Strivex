@@ -10,7 +10,7 @@ const StudentLayout = () => {
       <SideNav/>
       <div>
       <Navbar/>
-      {/* <Outlet/> */}
+      <Outlet/>
       </div>
     </div>
   )

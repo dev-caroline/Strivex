@@ -37,32 +37,31 @@ const App = () => {
           <Route index element={<Overview />} />
           <Route path='schools' element={<Schools />} />
           <Route path='users' element={<Users />} />
-          <Route path='adminSettings' element={<AdminSettings />} />
+          <Route path='admin-settings' element={<AdminSettings />} />
         </Route>
 
 
         <Route path='/student' element={<StudentLayout />}>
           <Route index element={<Dashboard />} />
-          <Route path='logEntry' element={<LogEntry />} />
-          {/* <Route path='settings' element={<Settings />} /> */}
-          <Route path='studentSettings' element={<StudentSettings />} />
+          <Route path='log-entry' element={<LogEntry />} />
+          <Route path='student-settings' element={<StudentSettings />} />
         </Route>
 
 
         <Route path='/supervisor' element={<SupervisorLayout />}>
           <Route index element={<SupervisorDashboard/>} />
-          <Route path='assignedStudent' element={<AssignedStudentPage/>} />
-          <Route path='logEntries' element={<LogEntries/>} /> 
-          <Route path='supervisorSettings' element ={<SupervisorSettings/>} />
-          <Route path='weeklyReport' element={<WeeklyReport/>} />
+          <Route path='assigned-student' element={<AssignedStudentPage/>} />
+          <Route path='log-entries' element={<LogEntries/>} /> 
+          <Route path='supervisor-settings' element ={<SupervisorSettings/>} />
+          <Route path='weekly-report' element={<WeeklyReport/>} />
         </Route>
 
 
-        <Route path='/schooladmin' element={<SchoolAdminLayout/>}>
+        <Route path='/school-admin' element={<SchoolAdminLayout/>}>
         <Route index element={<SchoolAdminOverview/>} />
-        <Route path='schooladminsettings' element={<SchoolAdminSettings/>} />
+        <Route path='school-admin-settings' element={<SchoolAdminSettings/>} />
         <Route path='students' element ={<Students/>} />
-        <Route path='supervisor' element ={<Supervisor/>} />
+        <Route path='supervisors' element ={<Supervisor/>} />
         </Route>
       </Routes>
     </>

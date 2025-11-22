@@ -14,7 +14,7 @@ export default function SideNav() {
             </div>
 
             <div className='mt-5 fw-bold' style={{ fontSize: '1.1em' }}>
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/student'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
                             <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z" />
@@ -23,7 +23,7 @@ export default function SideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/student/log-entry'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-bookmark-plus-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5m6.5-11a.5.5 0 0 0-1 0V6H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V7H10a.5.5 0 0 0 0-1H8.5z" />
@@ -32,7 +32,7 @@ export default function SideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/student/student-settings'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                             <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
@@ -56,7 +56,7 @@ export function SchoolAdminSideNav() {
             </div>
 
             <div className='mt-5 fw-bold' style={{ fontSize: '1.1em' }}>
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/school-admin'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
                             <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
@@ -65,7 +65,7 @@ export function SchoolAdminSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/school-admin/students'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
                             <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5" />
@@ -75,7 +75,7 @@ export function SchoolAdminSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/school-admin/supervisors'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
                             <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
@@ -85,7 +85,7 @@ export function SchoolAdminSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/school-admin/school-admin-settings'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                             <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
@@ -112,7 +112,7 @@ export function SupervisorSideNav() {
             </div>
 
             <div className='mt-5 fw-bold' style={{ fontSize: '1.1em' }}>
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/supervisor'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
                             <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z" />
@@ -121,7 +121,7 @@ export function SupervisorSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/supervisor/assigned-student'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
                             <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5" />
@@ -131,7 +131,7 @@ export function SupervisorSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/supervisor/log-entries'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-bookmark-plus-fill" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5m6.5-11a.5.5 0 0 0-1 0V6H6a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V7H10a.5.5 0 0 0 0-1H8.5z" />
@@ -140,7 +140,7 @@ export function SupervisorSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/supervisor/weekly-report'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
                             <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2" />
@@ -150,7 +150,7 @@ export function SupervisorSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/supervisor/supervisor-settings'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                             <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
@@ -177,7 +177,7 @@ export function AdminSideNav() {
             </div>
 
             <div className='mt-5 fw-bold' style={{ fontSize: '1.1em' }}>
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/admin01'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
                             <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5z" />
@@ -186,7 +186,7 @@ export function AdminSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/admin01/schools'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-box-arrow-in-up-left" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M9.636 13.5a.5.5 0 0 1-.5.5H2.5A1.5 1.5 0 0 1 1 12.5v-10A1.5 1.5 0 0 1 2.5 1h10A1.5 1.5 0 0 1 14 2.5v6.636a.5.5 0 0 1-1 0V2.5a.5.5 0 0 0-.5-.5h-10a.5.5 0 0 0-.5.5v10a.5.5 0 0 0 .5.5h6.636a.5.5 0 0 1 .5.5" />
@@ -196,7 +196,7 @@ export function AdminSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/admin01/users'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
                             <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
@@ -206,7 +206,7 @@ export function AdminSideNav() {
                     </div>
                 </Link>
 
-                <Link className='text-decoration-none text-black' to='#'>
+                <Link className='text-decoration-none text-black' to='/admin01/admin-settings'>
                     <div className='mt-4 rounded flex gap-3'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
                             <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />

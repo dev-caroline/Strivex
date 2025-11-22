@@ -1,6 +1,7 @@
 import React from 'react'
 import { SupervisorSideNav } from '../components/SideNav'
 import Navbar from '../components/Navbar'
+import { Outlet } from 'react-router-dom'
 
 const SupervisorLayout = () => {
   return (
@@ -8,6 +9,7 @@ const SupervisorLayout = () => {
       <SupervisorSideNav />
       <div>
         <Navbar />
+        <Outlet/>
       </div>
     </div>
   )
