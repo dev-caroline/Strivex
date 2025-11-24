@@ -22,6 +22,7 @@ import SchoolAdminOverview from './pages/schoolAdmin/SchoolAdminOverview'
 import SchoolAdminSettings from './pages/schoolAdmin/SchoolAdminSettings'
 import Students from './pages/schoolAdmin/Students'
 import Supervisor from './pages/schoolAdmin/Supervisor'
+import SupervisorReport from './pages/schoolAdmin/SupervisorReport'
 
 
 
@@ -62,6 +63,7 @@ const App = () => {
         <Route path='school-admin-settings' element={<SchoolAdminSettings/>} />
         <Route path='students' element ={<Students/>} />
         <Route path='supervisors' element ={<Supervisor/>} />
+        <Route path='supervisor-report' element={<SupervisorReport/>} />
         </Route>
       </Routes>
     </>
