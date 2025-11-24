@@ -1,35 +1,19 @@
 import React from 'react'
 
-const Schools = () => {
+const SupervisorReport = () => {
   return (
-    <div className='px-4'>
-      <div className='flex justify-between'>
-        <div>
-          <h1 className='fs-2 mt-4'>School Management</h1>
-          <h6>Manage all registered institutions and their administrators.</h6>
-        </div>
-        <div>
-          {/* <button className='p-3  rounded-2 fw-bold fs-6 mt-4  border'>Delete all !</button> */}
-          <div className='flex gap-2 mt-5  border-b'>
-            <h5 className=' rounded fw-bold'>Total Schools -  </h5>
-            <h4 className=' rounded fw-bold'>0</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex gap-3 mt-5">
-        <input type="text" placeholder="Search schools..." className="border rounded p-2 flex-1" />
+    <div className='p-4'>
+      <div className="flex gap-3 mt-3">
+        <input type="text" placeholder="Search report..." className="border rounded p-2 flex-1" />
         <select className="border rounded p-2">
-          <option>Active</option>
-          <option>Not Active</option>
+          <option>Verified</option>
+          <option>Not Verified</option>
         </select>
       </div>
-      <div className='border mt-5 p-4' style={{ height: '75vh' }} >
+      <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '77vh' }} >
         <div className='flex justify-between p-1 gap-3'>
-          <h5 className='p-2 fs-3'>All Schools </h5>
+          <h5 className='p-2 fs-3'>Weekly Report</h5>
           <div className='flex gap-2'>
-            {/* <button className=' text-white border px-13 p-3 rounded fw-bold' style={{ backgroundColor: '#A43C3C' }}>Add School +</button> */}
-            <button className=' text-white border px-13 p-3 rounded fw-bold bg-red-700' >Delete all</button>
 
           </div>
         </div>
@@ -37,12 +21,10 @@ const Schools = () => {
           <table className='table mt-4 p-3'>
             <thead>
               <tr>
-                <th scope="col">School name</th>
-                <th scope="col">School email</th>
-                <th scope="col">School ID</th>
-                <th scope="col">Admin email</th>
-                <th scope="col">Total Students</th>
-                <th scope="col">Total Supervisor</th>
+                <th scope="col">Report ID</th>
+                <th scope="col">Supervisor Assigned</th>
+                <th scope="col">Student Name</th>
+                <th scope="col">Matric Number</th>
                 <th scope="col">Status</th>
                 <th scope="col">Actions</th>
               </tr>
@@ -54,8 +36,6 @@ const Schools = () => {
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
-                <td>7</td>
-                <td>7</td>
                 <td>
                   <button>...</button>
                 </td>
@@ -68,8 +48,6 @@ const Schools = () => {
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
-                <td>7</td>
-                <td>7</td>
                 <td>
                   <button>...</button>
                 </td>
@@ -81,8 +59,6 @@ const Schools = () => {
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
-                <td>7</td>
-                <td>7</td>
                 <td>
                   <button>...</button>
                 </td>
@@ -95,8 +71,6 @@ const Schools = () => {
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
-                <td>7</td>
-                <td>7</td>
                 <td>
                   <button>...</button>
                 </td>
@@ -108,8 +82,6 @@ const Schools = () => {
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
-                <td>7</td>
-                <td>7</td>
                 <td>
                   <button>...</button>
                 </td>
@@ -121,13 +93,61 @@ const Schools = () => {
                 <td>4</td>
                 <td>5</td>
                 <td>6</td>
-                <td>7</td>
-                <td>7</td>
                 <td>
                   <button>...</button>
                 </td>
               </tr>
-
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>
+                  <button>...</button>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>
+                  <button>...</button>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>
+                  <button>...</button>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>
+                  <button>...</button>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>
+                  <button>...</button>
+                </td>
+              </tr>
+            
             </tbody>
           </table>
         </div>
@@ -136,4 +156,4 @@ const Schools = () => {
   )
 }
 
-export default Schools
+export default SupervisorReport

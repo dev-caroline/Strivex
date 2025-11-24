@@ -18,6 +18,20 @@ const Users = () => {
         </div>
       </div>
 
+      <div className="flex gap-3 mt-5">
+        <input type="text" placeholder="Search users..." className="border rounded p-2 flex-1" />
+        <select className="border rounded p-2">
+          <option>Active</option>
+          <option>Not Active</option>
+        </select>
+        <select className="border rounded p-2">
+          <option>School Admin</option>
+          <option>Student</option>
+          <option>Supervisor</option>
+
+        </select>
+      </div>
+
       <div className='border mt-5 p-4' style={{ height: '75vh' }} >
         <div className='flex justify-between p-1 gap-3'>
           <h5 className=' p-2  fs-3'>All Users </h5>
@@ -54,7 +68,7 @@ const Users = () => {
                 <th>4</th>
                 <th>5</th>
                 <th>6</th>
-                  <th>
+                <th>
                   <button>...</button>
                 </th>
 
@@ -65,19 +79,7 @@ const Users = () => {
                 <th>4</th>
                 <th>5</th>
                 <th>6</th>
-                  <th>
-                  <button>...</button>
-                </th>
-
-
-              </tr>
-              <tr>
-                <th>3</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-                <th>6</th>
-                  <th>
+                <th>
                   <button>...</button>
                 </th>
 
@@ -89,7 +91,7 @@ const Users = () => {
                 <th>4</th>
                 <th>5</th>
                 <th>6</th>
-                  <th>
+                <th>
                   <button>...</button>
                 </th>
 
@@ -101,7 +103,19 @@ const Users = () => {
                 <th>4</th>
                 <th>5</th>
                 <th>6</th>
-                  <th>
+                <th>
+                  <button>...</button>
+                </th>
+
+
+              </tr>
+              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>
                   <button>...</button>
                 </th>
 
