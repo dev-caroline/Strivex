@@ -32,7 +32,7 @@ const RequestAccessPage = () => {
                         </div>
                     </div>
                     <div className='flex'>
-                        <button className='text-white fs-5 form-control mt-4 fw-bold' style={{ backgroundColor: '#360000' }} >Submit</button>
+                        <button className='text-white fs-5 form-control mt-4 fw-bold w-50 mx-auto' style={{ backgroundColor: '#A43C3C' }} >Submit</button>
                     </div>
                     <h6 className='text-center flex justify-center' style={{ fontSize: '0.8em' }}>Already have an account?
                         <Link to='/'>
