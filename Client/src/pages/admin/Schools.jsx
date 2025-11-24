@@ -20,10 +20,10 @@ const Schools = () => {
 
       <div className='border mt-5 p-4' style={{ height: '75vh' }} >
         <div className='flex justify-between p-1 gap-3'>
-          <h5 className='text-yellow-800 p-2 rounded-md fs-3'>All Schools </h5>
+          <h5 className='p-2 fs-3'>All Schools </h5>
           <div className='flex gap-2'>
             {/* <button className=' text-white border px-13 p-3 rounded fw-bold' style={{ backgroundColor: '#A43C3C' }}>Add School +</button> */}
-            <button className=' text-white border px-13 p-3 rounded fw-bold' style={{ backgroundColor: '#A43C3C' }}>Delete all</button>
+            <button className=' text-white border px-13 p-3 rounded fw-bold bg-red-700' >Delete all</button>
 
           </div>
         </div>
