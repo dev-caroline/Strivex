@@ -53,9 +53,8 @@ const SchoolAdminOverview = () => {
               <td>4</td>
               <td>5</td>
               <td>
-                <button>...</button>
+                <button type="button">...</button>
               </td>
-
             </tr>
 
             <tr>
@@ -64,41 +63,38 @@ const SchoolAdminOverview = () => {
               <td>4</td>
               <td>5</td>
               <td>
-                <button>...</button>
+                <button type="button">...</button>
               </td>
-
             </tr>
+
             <tr>
               <td>3</td>
               <td>3</td>
               <td>4</td>
               <td>5</td>
               <td>
-                <button>...</button>
+                <button type="button">...</button>
               </td>
-
             </tr>
-
-
           </tbody>
         </table>
-      </div>
 
-      <div className='mt-10'>
-        <h3 className='mt-'>Recent Activities</h3>
-        <div className='flex gap-3 mt-2'>
-          <div className='bg-gray-200 rounded-xl col-12 p-4 fs-5 mt-4 overflow-y-hidden  shadow ' style={{ height: '20vh' }}>
-            <p>edrftgyhujiko</p>
-            <p>edrftgyhujiko</p>
-            <p>edrftgyhujiko</p>
-            <p>edrftgyhujiko</p>
-            <p>edrftgyhujiko</p>
-            <p>edrftgyhujiko</p>
-            <p>edrftgyhujiko</p>
+        <div className='mt-10'>
+          <h3 className='mt-'>Recent Activities</h3>
+          <div className='flex gap-3 mt-2'>
+            <div className='bg-gray-200 rounded-xl col-12 p-4 fs-5 mt-4 overflow-y-hidden  shadow ' style={{ height: '20vh' }}>
+              <p>edrftgyhujiko</p>
+              <p>edrftgyhujiko</p>
+              <p>edrftgyhujiko</p>
+              <p>edrftgyhujiko</p>
+              <p>edrftgyhujiko</p>
+              <p>edrftgyhujiko</p>
+              <p>edrftgyhujiko</p>
+            </div>
+            {/* <div className='bg-gray-300 rounded-xl col-2 mt-4 shadow p-4' style={{ height: '20vh' }}>
+          <h4 className='text-center'>School ID </h4>
+        </div> */}
           </div>
-          {/* <div className='bg-gray-300 rounded-xl col-2 mt-4 shadow p-4' style={{ height: '20vh' }}>
-            <h4 className='text-center'>School ID </h4>
-          </div> */}
         </div>
       </div>
     </div>

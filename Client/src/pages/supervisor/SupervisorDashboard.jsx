@@ -78,6 +78,40 @@ const SupervisorDashboard = () => {
                     <td>e</td>
                   </tr>
                 </tbody>
+=======
+              <thead>
+                <th>Student Name</th>
+                <th>Current Week</th>
+                <th>Logs Approved</th>
+                <th>Status</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>h</th>
+                  <th>3</th>
+                  <th>w</th>
+                  <th>e</th>
+                </tr>
+                <tr>
+                  <th>h</th>
+                  <th>3</th>
+                  <th>w</th>
+                  <th>e</th>
+                </tr>
+                <tr>
+                  <th>h</th>
+                  <th>3</th>
+                  <th>w</th>
+                  <th>e</th>
+                </tr>
+
+                <tr>
+                  <th>h</th>
+                  <th>3</th>
+                  <th>w</th>
+                  <th>e</th>
+                </tr>
+              </tbody>
             </table>
           </div>
           <div className='bg-gray-200 rounded-xl col-4 mt-4 shadow p-4' style={{ height: '30vh' }}>

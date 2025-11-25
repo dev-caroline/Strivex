@@ -2,6 +2,7 @@ import React from 'react'
 
 const AssignedStudentPage = () => {
   return (
+
     <div className='p-4'>
       <div className="flex gap-3 mt-3">
         <input type="text" placeholder="Search student..." className="border rounded p-2 flex-1" />
@@ -17,7 +18,13 @@ const AssignedStudentPage = () => {
         </select>
       </div>
 
-
+     <div className='p-4'>
+      <div className='flex mx-auto'>
+        <input type="text" className='form-control ' />
+        <button className='btn btn-sucss  p-2 ms-3 '>Department</button>
+        <button className='btn btn-waning  p-2 ms-3 '>supervisor</button>
+        <button className='btn btn-drk  p-2 ms-3'>eligible</button>
+      </div>
       <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '77vh' }} >
         <div className='flex justify-between p-1 gap-3'>
           <h5 className='p-2 fs-3'>Assigned Students </h5>
@@ -28,6 +35,7 @@ const AssignedStudentPage = () => {
         <div>
           <table className='table mt-4 p-3'>
             <thead>
+
               <tr>
                 <th scope="col">Full name</th>
                 <th scope="col">Matric Number</th>
@@ -38,6 +46,13 @@ const AssignedStudentPage = () => {
                 <th scope="col">Logs Approved</th>
                 <th scope="col">Actions</th>
               </tr>
+              <th>Full name</th>
+              <th>Matric Number</th>
+              <th>Department</th>
+              <th>Email</th>
+              <th>SIWES Status</th>
+              <th>Current Week</th>
+              <th>Logs Approved</th>
 
             </thead>
             <tbody>
@@ -54,7 +69,17 @@ const AssignedStudentPage = () => {
                   <button>...</button>
                 </td>
 
-              </tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+                <th>7</th>
+
+                <th>
+                  <button>...</button>
+                </th>              </tr>
 
               <tr>
                 <td>3</td>
@@ -80,6 +105,30 @@ const AssignedStudentPage = () => {
                 <td>
                   <button>...</button>
                 </td>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+
+              </tr>
+              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+
 
 
               </tr>
@@ -195,6 +244,118 @@ const AssignedStudentPage = () => {
                 <td>
                   <button>...</button>
                 </td>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+
+              </tr>
+              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+
+              </tr>
+              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+
+                <th>6</th>
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+              </tr>
+                            <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+              </tr>              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+              </tr>                                  <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+              </tr>              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+              </tr>              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+              </tr>              <tr>
+                <th>3</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>6</th>
+
+                <th>7</th>
+                <th>
+                  <button>...</button>
+                </th>
+
               </tr>
 
             </tbody>
@@ -202,7 +363,10 @@ const AssignedStudentPage = () => {
         </div>
       </div>
     </div>
+    </div>
   )
 }
+  
+
 
 export default AssignedStudentPage
