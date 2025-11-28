@@ -9,13 +9,9 @@ const SupervisorReport = () => {
           <option>Verified</option>
           <option>Not Verified</option>
         </select>
-        <div className='flex mx-auto'>
-          <input type="text" className='form-control ' />
-          <button className='btn btn-sucss  p-2 ms-3 '>Department</button>
-          <button className='btn btn-waning  p-2 ms-3 '>Active</button>
-          <button className='btn btn-drk  p-2 ms-3'></button>
+
         </div>
-        <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '77vh' }} >
+        <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '76vh' }} >
           <div className='flex justify-between p-1 gap-3'>
             <h5 className='p-2 fs-3'>Weekly Report</h5>
             <div className='flex gap-2'>
@@ -66,15 +62,6 @@ const SupervisorReport = () => {
                   <td>
                     <button>...</button>
                   </td>
-
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>
-                    <button>...</button>
-                  </th>
 
                 </tr>
                 <tr>
@@ -267,7 +254,7 @@ const SupervisorReport = () => {
           </div>
         </div>
         </div>
-        </div>
+
         )
 }
 

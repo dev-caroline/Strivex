@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SchoolAdminOverview = () => {
   return (
@@ -32,7 +33,9 @@ const SchoolAdminOverview = () => {
 
       <div className='flex justify-between mt-5 border p-1 gap-3'>
         <h5 className='text-yellow-800 p-2 rounded-md text-sm'> ⚠️ You have a pending report </h5>
-        <button className=' text-white border px-13 rounded fw-bold' style={{ backgroundColor: '#A43C3C' }}>Review</button>
+        <Link to='/school-admin/supervisor-report' >
+        <button className=' text-white border px-13 rounded fw-bold py-2' style={{ backgroundColor: '#A43C3C' }}>Review</button>
+        </Link>
       </div>
       <div className='mt-5'>
         <h3>Recent Supervisor Requests</h3>

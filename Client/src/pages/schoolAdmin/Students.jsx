@@ -21,7 +21,16 @@ const Students = () => {
         </select>
       </div>
 
-      <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '77vh' }} >
+            <div className="flex justify-end mt-4">
+        <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300">
+          + Add Student
+        </button>
+        {/* <button className="bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300">
+          Delete all
+        </button> */}
+      </div>
+
+      <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '68vh' }} >
         <div className='flex justify-between p-1 gap-3'>
           <h5 className='p-2 fs-3'>All Students Eligible for SIWES </h5>
           <div className='flex gap-2'>

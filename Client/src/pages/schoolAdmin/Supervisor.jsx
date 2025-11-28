@@ -14,236 +14,75 @@ const Supervisor = () => {
           <option>Active</option>
           <option>Not Active</option>
         </select>
-        \
-        <div className='flex mx-auto'>
-          <input type="text" className='form-control ' />
-          <button className='btn btn-sucss  p-2 ms-3 '>Department</button>
-          <button className='btn btn-waning  p-2 ms-3 '>Active</button>
-          <button className='btn btn-drk  p-2 ms-3'></button>
+      </div>
 
+      <div className="flex justify-end mt-4">
+        <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow-md transition duration-300">
+          + Add Supervisor
+        </button>
+
+      </div>
+
+      <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '69vh' }}>
+        <div className='flex justify-between p-1 gap-3'>
+          <h5 className='p-2 fs-3'>All Supervisors available for SIWES</h5>
         </div>
-        <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '77vh' }} >
-          <div className='flex justify-between p-1 gap-3'>
-            <h5 className='p-2 fs-3'>All Supervisors available for SIWES</h5>
-            <div className='flex gap-2'>
 
-            </div>
-          </div>
-          <div>
-            <table className='table mt-4 p-3'>
-              <thead>
-                <th>Full name</th>
-                <th>Staff ID</th>
-                <th>Department</th>
-                <th>Email</th>
-                <th>Students Assigned</th>
-                <th>Status</th>
+        <div>
+          <table className='table mt-4 p-3'>
+            <thead>
+              <tr>
+                <th scope="col">Full name</th>
+                <th scope="col">Staff ID</th>
+                <th scope="col">Department</th>
+                <th scope="col">Email</th>
+                <th scope="col">Students Assigned</th>
+                <th scope="col">Status</th>
+                <th scope="col">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>
+                  <button type="button">...</button>
+                </td>
+              </tr>
 
-              </thead>
-              <tbody>
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>
+                  <button type="button">...</button>
+                </td>
+              </tr>
 
-                  <th>
-                    <button>...</button>
-                  </th>
+              <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>
+                  <button type="button">...</button>
+                </td>
+              </tr>
 
-                </tr>
-
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-
-                </tr>
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-
-
-                </tr>
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-
-                </tr>
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-
-                </tr>
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>
-                <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>              <tr>
-                  <th>3</th>
-                  <th>3</th>
-                  <th>4</th>
-                  <th>5</th>
-                  <th>6</th>
-                  <th>7</th>
-                  <th>
-                    <button>...</button>
-                  </th>
-                </tr>
-
-              </tbody>
-            </table>
-          </div>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
-
   )
 }
 

@@ -23,6 +23,7 @@ import SchoolAdminSettings from './pages/schoolAdmin/SchoolAdminSettings'
 import Students from './pages/schoolAdmin/Students'
 import Supervisor from './pages/schoolAdmin/Supervisor'
 import SupervisorReport from './pages/schoolAdmin/SupervisorReport'
+import Report from './pages/student/Report'
 
 
 
@@ -45,6 +46,7 @@ const App = () => {
         <Route path='/student' element={<StudentLayout />}>
           <Route index element={<Dashboard />} />
           <Route path='log-entry' element={<LogEntry />} />
+          <Route path='report' element= {<Report/>} />
           <Route path='student-settings' element={<StudentSettings />} />
         </Route>
 

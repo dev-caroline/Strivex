@@ -12,22 +12,22 @@ const RequestAccessPage = () => {
                     <div className='flex gap-4 mt-4'>
 
                         <div className='col-6'>
-                            <p className='mt-4'>School Name</p>
+                            <p className='mt-4 fw-bold'>School Name</p>
                             <input type="text" className='form-control' />
-                            <p className='mt-4'>Admin Full Name</p>
+                            <p className='mt-4 fw-bold'>Admin Full Name</p>
                             <input type="text" className='form-control' />
-                            <p className='mt-4'>School Address</p>
+                            <p className='mt-4 fw-bold'>School Address</p>
                             <input type="text" className='form-control' />
-                            <p className='mt-4'>Number of Students Eligible for SIWES</p>
+                            <p className='mt-4 fw-bold'>Number of Students Eligible for SIWES</p>
                             <input type="number" className='form-control' />
                         </div>
 
                         <div className='col-6'>
-                            <p className='mt-4'>School Email</p>
+                            <p className='mt-4 fw-bold'>School Email</p>
                             <input type="email" className='form-control' />
-                            <p className='mt-4'>Admin Email</p>
+                            <p className='mt-4 fw-bold'>Admin Email</p>
                             <input type="email" className='form-control' />
-                            <p className='mt-4'>Contact (Phone Number)</p>
+                            <p className='mt-4 fw-bold fw-bold'>Contact (Phone Number)</p>
                             <input type="number" className='form-control' />
                         </div>
                     </div>

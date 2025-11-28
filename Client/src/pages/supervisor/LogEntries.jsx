@@ -11,7 +11,7 @@ const LogEntries = () => {
           <option>Approved</option>
         </select>
       </div>
-      <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '73vh' }} >
+      <div className='border mt-5 p-4 overflow-auto scroll-auto' style={{ height: '72vh' }} >
         <div className='flex justify-between p-1 gap-3'>
           <h5 className='p-2 fs-3'>Log Entries Review</h5>
           <div className='flex gap-2'>
